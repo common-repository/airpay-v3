@@ -1,0 +1,32 @@
+=== Airpay Extension Template Changelog ===
+Contributors: Airpay
+Tags: [airpay,payment,wordpress]
+Requires at least: 4.1
+Tested up to: 5.9
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Date: 2024-04-05
+
+
+= 2024-01-30 - version 5.8.2 =
+* Plugin name and description updated.
+* wordpress security issue fix
+
+ = 2024-01-30 - version 5.8.1 =
+* Bug fix, plugin not activating in php 7.0.
+* Add option fix for 1cc address pull cron job script.
+* Webhook conflict error message as info
+
+= 2024-01-29 - version 5.8.0 =
+* Added nonce and user capability check for route
+* Blocked currencies KWD, OMR, BHD.
+ *Bug fix, airpay response function.
+ * Bug fix, for optional params.
+
+
+
+
+
+
+
+
